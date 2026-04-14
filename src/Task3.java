@@ -13,8 +13,8 @@ public class Task3 {
         employeeIds.add("D123");
 
         //Display all elements
-        System.out.println("Adding Employee IDs: ");
-        System.out.println(employeeIds);
+        System.out.println("Adding Employee IDs: " + employeeIds );
+        //System.out.println(employeeIds);
 
         //Check if an existing ID is present
         System.out.println(employeeIds.contains("A123"));
