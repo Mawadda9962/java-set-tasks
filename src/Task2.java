@@ -12,12 +12,14 @@ public class Task2 {
         customerIds.add("5566");
         customerIds.add("7788");
 
-        //Display the set
+        //Display the element of the set
         System.out.println("Adding Customer IDs: ");
         System.out.println(customerIds);
 
+        //Adding a new customer ID
         customerIds.add("3344");
 
+        //Printing all the customer IDs after adding
         System.out.println("After Adding Another Customer ID: ");
         System.out.println(customerIds);
     }

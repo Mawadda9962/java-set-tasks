@@ -10,14 +10,16 @@ public class Task1 {
         product.add("OP33");
         product.add("OP44");
 
+        // Printing all the element on the set
         System.out.println("Product codes: ");
         System.out.println(product);
 
+        //Adding a new product
         product.add("0P55");
 
+        //printing after adding one more product code
         System.out.println("After Adding one more code: ");
         System.out.println(product);
-
 
 
     }
